@@ -2,7 +2,7 @@
 {
     public class Pagamento
     {
-        public float valor { get; set; }
+        public decimal valor { get; set; }
         public Cartao cartao { get; set; }
     }
 }

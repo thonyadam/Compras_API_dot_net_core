@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Compras_API_dot_net_core</name>
+    </assembly>
+    <members>
+        <member name="M:Compras_API_dot_net_core.Controllers.CompraController.CompraProduto(Compras_API_dot_net_core.Objeto.Compra)">
+            <summary>
+            Realiza a compra do produto
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="M:Compras_API_dot_net_core.Controllers.PagamentoController.RegistrarPagamento(Compras_API_dot_net_core.Objeto.Pagamento)">
+            <summary>
+            Valida a compra online
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="M:Compras_API_dot_net_core.Controllers.ProdutoController.InsereProduto(Compras_API_dot_net_core.Objeto.Produto)">
+            <summary>
+            Insere o produto com os parametros passados.
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="M:Compras_API_dot_net_core.Controllers.ProdutoController.ListarProdutos">
+            <summary>
+            Lista todos os produtos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Compras_API_dot_net_core.Controllers.ProdutoController.DetalharProduto(System.Int32)">
+            <summary>
+            Busca um produto pelo id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Compras_API_dot_net_core.Controllers.ProdutoController.ExcluirProduto(System.Int32)">
+            <summary>
+            Deleta um produto pelo id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

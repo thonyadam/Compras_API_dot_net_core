@@ -6,12 +6,17 @@ namespace Compras_API_dot_net_core.Controllers
 {
     [Route("api/pagamento/compras")]
     [ApiController]
-    public class PagementoController : ControllerBase
+    public class PagamentoController : ControllerBase
     {
-        [HttpPost(Name = "CompraProduto")]
+        /// <summary>
+        /// Valida a compra online
+        /// </summary>
+        /// <param></param>
+        /// <returns></returns>
+        [HttpPost(Name = "RegistrarPagamento")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult InsereProduto([FromBody] Pagamento data)
+        public IActionResult RegistrarPagamento([FromBody] Pagamento data)
         {
             
             try
